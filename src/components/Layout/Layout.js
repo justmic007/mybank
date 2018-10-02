@@ -2,15 +2,21 @@
 import React from 'react';
 
 import Aux from '../../hoc/Aux';
+import Appbar from '../Navigation/AppBar/AppBar';
+
 
 const layout = ( props ) => (
   <Aux>
-      <div>Appbar, Rectanglebar</div>
-      <main>
-          {props.children}
-      </main>
+      <Appbar />
+      
+
   </Aux>
 
 );
 
 export default layout;
+
+//<main>
+  //  <div>Appbar, Rectanglebar</div>
+    //{props.children}
+//</main>
