@@ -1,11 +1,15 @@
-.tangle {
+.searchBar {
   position: absolute;
-  top: 45px;
+  top: 114px;
+opacity: 0.3;
   bottom: 50px;
   background-color: midnightblue;
   border: none;
-  height: 70px;
+  height: 60px;
   width: 100%;
   z-index: -11;
+}
 
+.searchBarShow {
+  display: block;
 }

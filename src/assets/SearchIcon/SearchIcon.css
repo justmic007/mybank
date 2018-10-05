@@ -1,0 +1,18 @@
+.container {
+    display: inline-block;
+    position: absolute;
+    right: 70px;
+    top: 25px;
+}
+
+.button {
+    background-color: midnightblue;
+    border: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    display: none;
+  }
+
+}

@@ -1,16 +1,25 @@
 import React from 'react';
 
 import classes from './HeaderBar.css';
-//import Logo from '../Images/Logo/Logo';
-//import Hamburger from '../Hamburger/Hamburger'
-//import OnlineBanking from '../Navigation/OnlineBanking/OnlineBanking'
+import Logo from '../../../assets/Logo/Logo';
+import Hamburger from '../Hamburger/Hamburger'
+import OnlineBanking from '../OnlineBanking/OnlineBanking'
+import PhoneIcon from '../../../assets/PhoneIcon/PhoneIcon';
+import SearchIcon from '../../../assets/SearchIcon/SearchIcon';
+//import SearchToggle from '../../../containers/SearchToggle/SearchToggle'
+//import SearchButton from '../../../containers/SearchButton/SearchButton';
+//import Parallelogram from '../../Parallelogram/Parallelogram'
 
 const HeaderBar = () => (
-  <div>
-  <div className={classes.tangle}>
 
+  <div className={classes.tangle}>
+      <Logo />
+      <OnlineBanking />
+      <PhoneIcon />
+      <SearchIcon />
+      <Hamburger />
   </div>
-  </div>
+
 
 )
 
