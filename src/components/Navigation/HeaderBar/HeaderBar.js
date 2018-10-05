@@ -10,13 +10,13 @@ import SearchIcon from '../../../assets/SearchIcon/SearchIcon';
 //import SearchButton from '../../../containers/SearchButton/SearchButton';
 //import Parallelogram from '../../Parallelogram/Parallelogram'
 
-const HeaderBar = () => (
+const HeaderBar = (props) => (
 
   <div className={classes.tangle}>
       <Logo />
       <OnlineBanking />
       <PhoneIcon />
-      <SearchIcon />
+      <SearchIcon clicked={props.searchIconClicked} />
       <Hamburger />
   </div>
 
