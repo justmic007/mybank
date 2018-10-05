@@ -3,12 +3,15 @@ import React from 'react';
 
 import Aux from '../../hoc/Aux';
 import Appbar from '../Navigation/AppBar/AppBar';
+import HeaderBar from '../Navigation/HeaderBar/HeaderBar';
+import SearchBar from '../Navigation/SearchBar/SearchBar';
 
 
 const layout = ( props ) => (
   <Aux>
       <Appbar />
-      
+      <HeaderBar />
+      <SearchBar />
 
   </Aux>
 

@@ -1,9 +1,9 @@
 import React from 'react';
 
-import './OnlineBanking.css'
+import classes from './OnlineBanking.css'
 
 const OnlineBanking = () => (
-  <div className="OnlineBanking">
+  <div className={classes.OnlineBanking}>
       <a href="#">Online Banking</a>
   </div>
 
