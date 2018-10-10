@@ -1,21 +1,10 @@
 .searchBar {
-  position: absolute;
-  top: 114px;
-
-  bottom: 50px;
+  position: fixed;
   background-color: midnightblue;
   border: none;
-  height: 60px;
-  width: 100%;
+  top: 114px;
+  height: 70px;
+  width: 360px;
   z-index: -11;
-
-}
-
-
-.Open {
-    display: block;
-}
-
-.Close {
-    display: none;
+  margin-left: -270px;
 }
