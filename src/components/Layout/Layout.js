@@ -1,23 +1,52 @@
 // A wrapping root element or function
-import React from 'react';
+import React, { Component } from 'react';
 
+import classes from './Layout';
 import Aux from '../../hoc/Aux';
 import Appbar from '../Navigation/AppBar/AppBar';
 import HeaderBar from '../Navigation/HeaderBar/HeaderBar';
-import SearchBar from '../Navigation/SearchBar/SearchBar';
+//import SearchBar from '../../containers/SearchBar/SearchBar';
+//import SearchToggle from '../../containers/SearchToggle/SearchToggle'
+//import ProductsMenu from '../Navigation/ProductsMenu/ProductsMenu';
 
 
-const layout = ( props ) => (
-  <Aux>
-      <Appbar />
-      <HeaderBar />
-      <SearchBar />
+class Layout extends Component {
+// state = {
+//     showSearchBar: false
+//   }
+//
+// searchBarCloseHandler = () => {
+//   this.setState({showSearchBar: false});
+// }
+//
+// searchBarToggleHandler = () => {
+//   this.setState ((prevState) => {
+//     return {showSearchBar: !prevState.showSearchBar};
+//   });
+// }
+render() {
+  return (
+    <Aux>
+        <Appbar />
+        <main className={classes.Content}>
+            <HeaderBar />
 
-  </Aux>
 
-);
+              {this.props.children}
+          </main>
 
-export default layout;
+    </Aux>
+  )
+}
+
+};
+
+export default Layout;
+
+// <HeaderBar searchIconClicked={this.searchBarToggleHandler}/>
+
+// open={this.state.showSearchBar}
+// closed={this.searchBarCloseHandler}
 
 //<main>
   //  <div>Appbar, Rectanglebar</div>
