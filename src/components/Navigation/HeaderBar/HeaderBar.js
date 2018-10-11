@@ -6,6 +6,8 @@ import Hamburger from '../Hamburger/Hamburger'
 import OnlineBanking from '../OnlineBanking/OnlineBanking'
 import PhoneIcon from './PhoneIcon/PhoneIcon';
 import SearchIcon from './SearchIcon/SearchIcon';
+import ParallelogramOpenAccount from '../ParallelogramOpenAccount/ParallelogramOpenAccount'
+import OpenAccount from '../ParallelogramOpenAccount/OpenAccount/OpenAccount'
 //import SearchToggle from '../../../containers/SearchToggle/SearchToggle'
 //import SearchButton from '../../../containers/SearchButton/SearchButton';
 //import Parallelogram from '../../Parallelogram/Parallelogram'
@@ -19,6 +21,9 @@ const HeaderBar = (props) => (
       <PhoneIcon />
       <SearchIcon />
       <Hamburger />
+      <ParallelogramOpenAccount />
+        <OpenAccount />
+
   </div>
 
 
