@@ -1,0 +1,26 @@
+.openAccount {
+  display: none;
+position: absolute;
+margin-left: 885px;
+margin-top: 28px;
+color: black;
+font-size: 90px;
+z-index: -7;
+font-size: 14px;
+
+}
+
+
+
+@media only screen and (min-width: 992px) {
+  .openAccount {
+display: block;
+       border: none;
+       z-index: -7;
+
+
+     }
+
+
+
+      }
