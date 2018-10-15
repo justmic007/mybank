@@ -6,7 +6,7 @@
      background: #b8860b;
      border: none;
      position: absolute;
-     margin-left: 850px;
+     margin-left: 1070px;
      margin-top: 20px;
      z-index: -8;
 
@@ -18,7 +18,7 @@
         height: 32px;
         cursor: pointer;
 
-        background: #FCb8860b;
+        background-color: #801a1110;
         position: absolute;
         margin-left: 800px;
         margin-top: 20px;
