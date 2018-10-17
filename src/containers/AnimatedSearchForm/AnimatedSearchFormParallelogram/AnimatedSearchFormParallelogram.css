@@ -1,0 +1,26 @@
+.parallelogram {
+  display: none;
+  position: absolute;
+  top: 22px;
+  left: 545px;
+width: 278px;
+height: 25px;
+border-radius: 3px;
+-webkit-transform: skew(-20deg);
+   -moz-transform: skew(-20deg);
+     -o-transform: skew(-20deg);
+background: white;
+z-index: -10;
+}
+
+.parallelogram:focus {
+    width: 100%;
+}
+
+@media only screen and (min-width: 640px) {
+  .parallelogram {
+        display: block;
+
+     }
+
+}

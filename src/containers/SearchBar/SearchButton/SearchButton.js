@@ -11,8 +11,8 @@ class SearchButton extends Component {
       <div className={classes.button}>
       <form action="" >
 
-            <input type="text" placeholder="Search.." name="search" style={{width: 230, height: 20, border: "none"}}/>
-            <button type="submit" style={{background: "white", color: "#303030", border: "none", width:45, height:30}}><i className="fa fa-search fa-flip-horizontal fa-lg" ></i></button>
+            <input type="text" placeholder="Search.." name="search" style={{width: 200, height: 28, outline: "none", border: "none"}}/>
+            <button type="submit" style={{background: "white", color: "#303030", border: "none", width:35, height:30}}><i className="fa fa-search fa-flip-horizontal fa-lg" ></i></button>
 
       </form>
       </div>
