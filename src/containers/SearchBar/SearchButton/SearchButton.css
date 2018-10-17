@@ -1,11 +1,8 @@
 .button {
   position: absolute;
   top: 18px;
-  left: 60px;
+  left: 80px;
   bottom: 50px;
-  opacity: 0.3;
-
-
   border: none;
 
   transform: perspective();

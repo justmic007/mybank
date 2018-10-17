@@ -1,0 +1,22 @@
+.button {
+  position: absolute;
+  top: 22px;
+  left: 60px;
+  bottom: 50px;
+  opacity: 0.8;
+  border-color: white;
+  outline: none;
+  margin-left: 489px;
+  transform: perspective();
+  z-index: -10;
+
+}
+
+.input[type=text] {
+  -webkit-transition: ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+.input:focus {
+    width: 100%;
+}

@@ -10,7 +10,7 @@ import ParallelogramOpenAccount from '../ParallelogramOpenAccount/ParallelogramO
 import ParallelogramInternetBanking from '../ParallelogramInternetBanking/ParallelogramInternetBanking'
 import OpenAccount from '../ParallelogramOpenAccount/OpenAccount/OpenAccount'
 import InternetBanking from '../ParallelogramInternetBanking/InternetBanking/InternetBanking'
-//import SearchToggle from '../../../containers/SearchToggle/SearchToggle'
+import AnimatedSearchForm from '../../../containers/AnimatedSearchForm/AnimatedSearchForm'
 //import SearchButton from '../../../containers/SearchButton/SearchButton';
 //import Parallelogram from '../../Parallelogram/Parallelogram'
 
@@ -23,13 +23,11 @@ const HeaderBar = () => (
       <PhoneIcon />
       <SearchIcon />
       <Hamburger />
-
-        <ParallelogramOpenAccount />
-          <OpenAccount />
-
-<ParallelogramInternetBanking />
-<InternetBanking />
-
+      <ParallelogramOpenAccount />
+      <OpenAccount />
+      <ParallelogramInternetBanking />
+      <InternetBanking />
+      <AnimatedSearchForm />
   </div>
 
 

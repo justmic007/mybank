@@ -1,8 +1,9 @@
 .container {
     display: inline-block;
     position: absolute;
-    right: 110px;
-    top: 25px;
+    left: 235px;
+    top: 26px;
+
 }
 
 .button {
