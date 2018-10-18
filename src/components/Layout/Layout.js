@@ -7,7 +7,7 @@ import Appbar from '../Navigation/AppBar/AppBar';
 import HeaderBar from '../Navigation/HeaderBar/HeaderBar';
 //import SearchBar from '../../containers/SearchBar/SearchBar';
 //import SearchToggle from '../../containers/SearchToggle/SearchToggle'
-//import ProductsMenu from '../Navigation/ProductsMenu/ProductsMenu';
+import ProductsMenu from '../Navigation/ProductsMenu/ProductsMenu';
 
 
 class Layout extends Component {
@@ -30,7 +30,7 @@ render() {
         <Appbar />
         <main className={classes.Content}>
             <HeaderBar />
-
+              <ProductsMenu />
 
               {this.props.children}
           </main>
