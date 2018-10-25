@@ -1,55 +1,296 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    top: 80px;
-    z-index: -20;
-    position: relative;
-
-}
-
-.menuArea a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    background: #cb3529;
-    height: 50px;
-    font-family: sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.menuArea a:hover{
-    background: tomato;
-    color: #fff;
-}
-
-.menuArea ul {
-    list-style: none;
-    display: flex;
-}
-
-.menuArea ul li {
-    position: relative;
-    width: 100%;
-    text-align: center;
-}
-
-.menuArea li: hover .dropdown1 li{
-  top: 0;
-  display: block;
-}
-
-.dropdown1 ul li{
+.flexContainer {
   display: none;
-  position: relative;
+  top: 114.5px;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.2);
+  justify-content: right;
+  z-index: -11;
+
 }
 
-.dropdown1{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+.flexContainer button {
+  background-color: white;
+  display: none;
+  width: 216.6px;
+  margin: 1px;
+  height: 48px;
+  text-align: center;
+
+border: none;
+  justify-content: space-around;
+
+  line-height: 48px;
+  font-size: 14px;
+  z-index: -3;
+}
+
+
+.dropdownAccounts {
+    position: relative;
+    display: inline-block;
+    height: 10px;
+    margin-right: 0px;
+    margin-top: 0px;
+
+}
+
+
+.dropdownAccountsContent {
+    position: absolute;
+    display: none;
+    background-color: #f9f9f9;
+    margin-left: 0px;
+    min-width: 218px;
+    font-size: 15px;
+    text-align: left;
+    text-decoration-color: blue;
+    text-indent: 1.5rem;
+    line-height: 30%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownAccountsContent a {
+    color: midnightblue;
+    padding: 12px 1px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdownAccountsContent a:hover {
+  background-color: #ddd;
+}
+
+
+.dropdownBestLoansandMortgages {
+    position: relative;
+    display: inline-block;
+    height: 10px;
+    margin-right: 0px;
+    margin-top: 0px;
+
+}
+
+
+.dropdownBestLoansandMortgagesContent {
+    position: absolute;
+    display: none;
+    background-color: #f9f9f9;
+    margin-left: -20px;
+    min-width: 255px;
+    font-size: 15px;
+    text-align: left;
+    text-decoration-color: blue;
+    text-indent: 0.3rem;
+    line-height: 30%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownBestLoansandMortgagesContent a {
+    color: midnightblue;
+    padding: 12px 1px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownBestLoansandMortgagesContent a:hover {
+  background-color: #ddd;
+}
+
+
+
+.dropdownMoneyTransfers {
+    position: relative;
+    display: inline-block;
+    height: 10px;
+    margin-right: 0px;
+    margin-top: 0px;
+
+}
+
+
+.dropdownMoneyTransfersContent {
+    position: absolute;
+    display: none;
+    background-color: #f9f9f9;
+    margin-left: -8px;
+    min-width: 235px;
+    font-size: 15px;
+    text-align: left;
+    text-decoration-color: blue;
+    text-indent: 0.7rem;
+    line-height: 30%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownMoneyTransfersContent a {
+    color: midnightblue;
+    padding: 12px 1px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownMoneyTransfersContent a:hover {
+  background-color: #ddd;
+}
+
+
+.dropdownWaysToBank {
+    position: relative;
+    display: inline-block;
+    height: 10px;
+    margin-right: 0px;
+    margin-top: 0px;
+
+}
+
+
+.dropdownWaysToBankContent {
+    position: absolute;
+    display: none;
+    background-color: #f9f9f9;
+    margin-left: 0px;
+    min-width: 222px;
+    font-size: 15px;
+    text-align: left;
+    text-decoration-color: blue;
+    text-indent: 1.5rem;
+    line-height: 30%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownWaysToBankContent a {
+    color: midnightblue;
+    padding: 12px 1px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownWaysToBankContent a:hover {
+  background-color: #ddd;
+}
+
+
+.dropdownCards {
+    position: relative;
+    display: inline-block;
+    height: 10px;
+    margin-right: 0px;
+    margin-top: 0px;
+
+}
+
+
+.dropdownCardsContent {
+    position: absolute;
+    display: none;
+    background-color: #f9f9f9;
+    margin-left: 0px;
+    min-width: 222px;
+    font-size: 15px;
+    text-align: left;
+    text-decoration-color: blue;
+    text-indent: 1.5rem;
+    line-height: 30%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownCardsContent a {
+    color: midnightblue;
+    padding: 12px 1px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownCardsContent a:hover {
+  background-color: #ddd;
+}
+
+
+.dropdownPaymentSolutions {
+    position: relative;
+    display: inline-block;
+    height: 10px;
+    margin-right: 0px;
+    margin-top: 0px;
+
+}
+
+
+.dropdownPaymentSolutionsContent {
+    position: absolute;
+    display: none;
+    background-color: #f9f9f9;
+    margin-left: 0px;
+    min-width: 218px;
+    font-size: 15px;
+    text-align: left;
+    text-decoration-color: blue;
+    text-indent: 1.0rem;
+    line-height: 30%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownPaymentSolutionsContent a {
+    color: midnightblue;
+    padding: 12px 1px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownPaymentSolutionsContent a:hover {
+  background-color: #ddd;
+}
+
+
+
+.dropdownAccounts:hover .dropdownAccountsContent {display: block;}
+
+.dropdownAccounts:hover .accountButton {background-color: red;}
+
+.dropdownBestLoansandMortgages:hover .dropdownBestLoansandMortgagesContent {display: block;}
+
+.dropdownBestLoansandMortgages:hover .accountButton {background-color: #b8860b;}
+
+.dropdownMoneyTransfers:hover .dropdownMoneyTransfersContent {display: block;}
+
+.dropdownMoneyTransfers:hover .accountButton {background-color: #b8860b;}
+
+.dropdownWaysToBank:hover .dropdownWaysToBankContent {display: block;}
+
+.dropdownWaysToBank:hover .accountButton {background-color: #b8860b;}
+
+.dropdownCards:hover .dropdownCardsContent {display: block;}
+
+.dropdownCards:hover .accountButton {background-color: #b8860b;}
+
+.dropdownPaymentSolutions:hover .dropdownPaymentSolutionsContent {display: block;}
+
+.dropdownPaymentSolutions:hover .accountButton {background-color: #b8860b;}
+
+
+@media only screen and (min-width: 992px) {
+
+  .flexContainer {
+    display: flex;
+
+
+  }
+
+  .flexContainer button {
+
+    display: flex;
+
+  }
+
+
 }
