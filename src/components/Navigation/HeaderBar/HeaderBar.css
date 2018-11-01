@@ -2,10 +2,21 @@
   position: absolute;
   top: 45px;
   bottom: 50px;
+  margin-left: 0px;
   background-color: midnightblue;
   border: none;
   height: 70px;
-  width: 100%;
+  width: 360px;
   z-index: -11;
+
+}
+
+@media only screen and (min-width: 640px) {
+  .tangle {
+    margin-left: 0%;
+    width: 100%;
+    z-index: -11;
+
+  }
 
 }

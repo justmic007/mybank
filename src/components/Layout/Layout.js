@@ -1,13 +1,14 @@
 // A wrapping root element or function
 import React, { Component } from 'react';
 
-import classes from './Layout';
+//import classes from './Layout';
 import Aux from '../../hoc/Aux';
 import Appbar from '../Navigation/AppBar/AppBar';
 import HeaderBar from '../Navigation/HeaderBar/HeaderBar';
 //import SearchBar from '../../containers/SearchBar/SearchBar';
 //import SearchToggle from '../../containers/SearchToggle/SearchToggle'
 import ProductsMenu from '../Navigation/ProductsMenu/ProductsMenu';
+import Slider from '../../containers/ImageSlider/ImageSlider';
 
 
 class Layout extends Component {
@@ -28,12 +29,11 @@ render() {
   return (
     <Aux>
         <Appbar />
-        <main className={classes.Content}>
+        <main>
             <HeaderBar />
               <ProductsMenu />
-
-              {this.props.children}
-          </main>
+<Slider />
+        </main>
 
     </Aux>
   )
