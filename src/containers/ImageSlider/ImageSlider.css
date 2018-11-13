@@ -1,0 +1,26 @@
+.Slider {
+  margin-left: 0px;
+  position: absolute;
+  top: 165px;
+  object-fit: cover;
+  object-position: 100% 0;
+
+  width: 300px;
+  height: 337px;
+  z-index: -15;
+}
+
+@media only screen and (min-width: 640px) {
+  .Slider {
+    margin-left: 0px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 165px;
+     -webkit-box-shadow: 0 10px 15px -6px #777;
+     -moz-box-shadow: 0 10px 15px -6px #777;
+      box-shadow: 0 10px 15px -6px #777;
+
+    z-index: -15;
+  }
+}
