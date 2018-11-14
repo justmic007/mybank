@@ -1,9 +1,13 @@
 .parallelogram {
-  position: absolute;
+  position:relative;
   top: 18px;
-  left: 74px;
-width: 31.6%;
-height: 30.5px;
+right: -300px;
+width: 301px;
+height: 28px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 3px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 3px;
 -webkit-transform: skew(-20deg);
    -moz-transform: skew(-20deg);
      -o-transform: skew(-20deg);

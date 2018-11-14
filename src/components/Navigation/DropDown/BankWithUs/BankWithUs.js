@@ -11,7 +11,6 @@ const BankWithUs = () => (
           <a href="/">Personal</a>
           <a href="/">Business</a>
           <a href="/">Private Banking</a>
-
         </div>
 </div>
 )

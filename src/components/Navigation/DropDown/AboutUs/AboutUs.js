@@ -11,7 +11,6 @@ const AboutUs = () => (
           <a href="/">Welcome</a>
           <a href="/">Media</a>
           <a href="/">Careers</a>
-
         </div>
 </div>
 )

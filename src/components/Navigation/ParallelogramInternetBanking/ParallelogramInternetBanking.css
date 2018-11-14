@@ -17,7 +17,6 @@
         width: 190px;
         height: 32px;
         cursor: pointer;
-
         background-color: #801a1110;
         position: absolute;
         margin-left: 800px;
@@ -27,13 +26,9 @@
 @media only screen and (min-width: 992px) {
   .parallelogram {
         display: block;
+  }
 
-     }
-
-
-      .parallelogram:hover {
-           display: block;
-
-         }
-
-            }
+  .parallelogram:hover {
+        display: block;
+  }
+}
