@@ -17,7 +17,6 @@ const Countries = () => (
         <a href="/">Guinea</a>
         <a href="/">UK</a>
         <a href="/">France</a>
-
       </div>
 </div>
 )

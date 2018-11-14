@@ -279,18 +279,12 @@ border: none;
 
 
 @media only screen and (min-width: 992px) {
-
   .flexContainer {
     display: flex;
-
-
   }
 
   .flexContainer button {
-
     display: flex;
-
   }
-
 
 }

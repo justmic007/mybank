@@ -2,7 +2,6 @@ import React from 'react';
 
 import classes from './Hamburger.css';
 
-
 const Hamburger = () => (
     <div className={classes.container}>
       <div className={classes.bar1}></div>

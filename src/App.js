@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Layout from './components/Layout/Layout'
+import Layout from './containers/Layout/Layout'
 
 import './App.css';
 
@@ -9,8 +9,6 @@ class App extends Component {
     return (
       <div className="App">
           <Layout />
-
-        
       </div>
     );
   }
