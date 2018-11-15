@@ -7,6 +7,7 @@ import SearchBar from '../../containers/SearchBar/SearchBar';
 import SearchIcon from '../../components/Navigation/HeaderBar/SearchIcon/SearchIcon'
 import ProductsMenu from '../../components/Navigation/ProductsMenu/ProductsMenu';
 import Slider from '../ImageSlider/ImageSlider';
+import CardsContainer from '../../components/CardSection/CardsContainer'
 
 class Layout extends Component {
   state = {
@@ -31,6 +32,7 @@ render() {
             <HeaderBar />
             <ProductsMenu />
             <Slider />
+            <CardsContainer />
         </main>
 
     </Aux>
