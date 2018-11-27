@@ -1,25 +1,225 @@
-.Appbar {
-  position: fixed;
-  background-color: #b8860b;
-  border: none;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  height: 45px;
-  width: 35%;
-  z-index: -5;
+.navigationBar{
+  display: flex;
+  flex: 1 1 100%;
+  justify-content:flex-end;
+  align-items:right;
+  padding: 4px 35px;
+  width: 100%;
+  background-color: goldenrod;
+  color: blue;
 }
 
-@media only screen and (min-width: 640px) {
-  .Appbar {
-    display: flex;
-    position: absolute;
-    background-color: #b8860b;
-    margin-left: 0px;
-    border: none;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    height: 45px;
-    width: 100%;
-    z-index: -10;
-  }
+.navigationBar a{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  text-align: right;
+  color: black;
+  padding: 10px 15px;
+  text-transform: capitalize;
 }
+
+.navigationBar a:active{
+  height:19px;
+
+}
+
+.navitemAboutUs {
+  display: none;
+}
+
+
+.navitemAboutUsdropdownContent {
+    position: absolute;
+    display: none;
+    top: 41px;
+    left: -12px;
+    background-color: #f9f9f9;
+    margin-left: 5px;
+    min-width: 100px;
+    font-size: 15px;
+    text-align: center;
+    text-indent: -0.2rem;
+    line-height: 60%;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navitemCountries {
+  display: flex;
+  justify-content:center;
+  position: relative;
+  right: 50px;
+}
+
+.navitemCountriesdropdownContent {
+    position: absolute;
+    display: none;
+    top: 43px;
+    /* left: -12px; */
+    background-color: #f9f9f9;
+    /* margin-left: 5px; */
+    min-width: 120px;
+    font-size: 15px;
+    text-align: center;
+    text-indent: -0.2rem;
+    line-height: 60%;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navitemBankWithUs {
+  display: none;
+}
+
+.navitemBankWithUsdropdownContent {
+    position: absolute;
+    display: none;
+    top: 41px;
+    left: -5px;
+    background-color: #f9f9f9;
+    margin-left: 5px;
+    min-width: 100px;
+    font-size: 15px;
+    text-align: center;
+    text-indent: -0.2rem;
+    line-height: 60%;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navitemContactUs {
+  display: none;
+}
+
+.navitemContactUsdropdownContent {
+    position: absolute;
+    display: none;
+    top: 41px;
+    left: -5px;
+    background-color: #f9f9f9;
+    /* margin-left: 0px; */
+    min-width: 135px;
+    font-size: 15px;
+    text-align: center;
+    text-indent: -0.2rem;
+    line-height: 60%;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+
+
+@media screen and (max-width: 900px) and (min-width: 415px), (min-width: 899px) {
+  .navigationBar{
+      display: inline-flex;
+      flex-wrap: wrap;
+      padding: 4px 10px;
+      justify-content: flex-start;
+      align-content: center;
+  }
+
+  .navigationBar a:hover{
+      height:21px;
+  }
+
+   .navitemAboutUs {
+      position: relative;
+      display: inline-block;
+      height: 10px;
+      margin-right: 0px;
+      margin-top: 0px;
+  }
+
+  .navitemAboutUsdropdownContent {
+      display: none;
+      padding: 8px;
+  }
+
+  .navitemAboutUsdropdownContent a:hover {
+      background-color: midnightblue;
+      color: white;
+      border-radius: 5px;
+      padding-top: 15px;
+      height: 10px;
+}
+
+.navitemCountries {
+     display: flex;
+     align-items:right;
+     position: absolute;
+     right: 20px;
+     justify-content: flex-end;
+ }
+
+.navitemCountriesdropdownContent {
+      display: none;
+      padding: 8px;
+      top: 41px;
+      right: -18px;
+  }
+
+  .navitemCountriesdropdownContent a:hover {
+      background-color: midnightblue;
+      color: white;
+      border-radius: 5px;
+      padding-top: 15px;
+      height: 10px;
+
+  }
+
+  .navitemBankWithUs {
+      display: flex;
+      justify-content: flex-start;
+      position: relative;
+      display: inline-block;
+      height: 10px;
+      margin-right: 0px;
+      margin-top: 0px;
+  }
+
+
+  .navitemBankWithUsdropdownContent {
+      display: none;
+      padding: 8px;
+  }
+
+  .navitemBankWithUsdropdownContent a:hover {
+      background-color: midnightblue;
+      color: white;
+      border-radius: 5px;
+      padding-top: 15px;
+      height: 10px;
+  }
+
+  .navitemContactUs {
+    display: inline-block;
+    justify-content: flex-start;
+    position: relative;
+
+    /* height: 10px; */
+    margin-right: 0px;
+    margin-top: 0px;
+
+  }
+
+  .navitemContactUsdropdownContent {
+      display: none;
+      padding: 8px;
+  }
+
+  .navitemContactUsdropdownContent a:hover {
+      background-color: midnightblue;
+      color: white;
+      border-radius: 5px;
+      padding-top: 15px;
+      height: 10px;
+  }
+
+}
+
+.navitemAboutUs:hover .navitemAboutUsdropdownContent {display: block;}
+.navitemCountries:hover .navitemCountriesdropdownContent {display: block;}
+.navitemBankWithUs:hover .navitemBankWithUsdropdownContent {display: block;}
+.navitemContactUs:hover .navitemContactUsdropdownContent {display: block;}

@@ -1,4 +1,5 @@
 .tangle {
+  display: flex;
   position: absolute;
   top: 45px;
   bottom: 50px;
@@ -6,7 +7,7 @@
   background-color: midnightblue;
   border: none;
   height: 70px;
-  width: 360px;
+  width: 100%;
   z-index: -11;
 
 }
@@ -15,7 +16,6 @@
   .tangle {
     display: flex;
     margin-left: 0;
-    width: 100%;
     z-index: -11;
 
   }
